@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
-# **Etapa I: Problemática y conjunto de datos**
+
+# **Stage I: Problem and data set**
 
 ### Definición y contextualización de la Problemática
 
@@ -124,7 +125,8 @@ from sklearn.metrics import jaccard_score
 
 sns.set_theme(style="whitegrid")
 
-"""### Funciones para preprocesamiento"""
+
+"### Preprocessing Functions"
 
 def validar_columna(nombre_columna: str, largo):
   # Validar si existe algun CustomerID con letra
